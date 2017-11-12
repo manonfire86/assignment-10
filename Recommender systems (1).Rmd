@@ -1,0 +1,29 @@
+---
+title: "Recommender System - Netflix"
+author: "Hector Santana"
+date: "November 7, 2017"
+output: html_document
+---
+
+## Scenario Design:
+
+## The Recommender System that I will be discussing in my post is Netflix's Recommender System. The movie streaming platform's target audience is its subscribers and potential subscribers that enjoy the free movie streaming services that the company provides. As described by the company in their Recommender System white paper, "they are inventing Internet television." Their goal, more specifically the goal of the developers and platform, is to revolutionize the mode of viewing movies in order to enjoy the ultimate viewing experience. By implementing machine learning algorithms to develop a complex and highly intuitive recommender system, the Netflix developers are actively working towards this goal.
+
+##  More often than not, the desires of a mega-corporation do not align with the thinkers and producers of the company. While the goal of the developers is to develop a revolutionary internet television viewing experiencing, the corporation itself has different goals in mind and it is important to make that distinction. Their target audience is their current demographic, current subscribers, and all untapped markets that the internet can provide them access to and even some that it cannot. While the experience is essential to selling their illustrious product, their goal is to maximize profits and create an expansive global influence. The corporation does this by not only employing the best and the brightest, but also by making sure it is competitive in securing the best talent in a cost effective manner; the other departments of the corporation must also run seamlessly.
+
+## Analysis of the Recommender System:
+
+## "Customers, when browsing for movie selections, often make their decision within 60 to 90 seconds of choosing, having reviewed 10 to 20 titles." Netflix's broad problem, with this eye catching statistic, is to recommend compelling material within the consumers short attention span; failure to capture interest would hurt profits and the product's overall value as an effective system. 
+
+## During the early day's of Netflix, a star rating system was used that on a surface level was used to filter popular results to viewers. At this time dvds were primarily being ordered and the system proved to be effective. With the introduction of unlimited the platform quickly adapted to accomodate the endless flow of data. Utilizing a matrix like interface, each row is unique and personalized for a user based on the Netflix algorithms in place. Genre rows, per the white paper, utilize the personalized video ranker (PVR) algorithm to systematically parse and rank broad movie titles per the user's historical preferences; in turn their algorithm most likely utilizes a classification based algorithm to parse movie titles from other users like experiences and help place them in your genre queue.
+
+## The "Top Picks" row is produced using the Top N algorithm to find the best personalized top picks for each consumer. The algorithm only looks at the head of the ranking database for efficiency, speed, and picking accurate top picks. The Top Picks algorithm shares similarities with the PVR algorithm in that it combines personalization with popularity, and identifies and incorporates trends over different time windows ranging from a day to a year.
+
+## The remainder of the rows utilize temporal analysis of trends, video similarilities, and probability analysis on resuming an interrupted/stopped movie to populate the other rows available to the viewer.
+
+## Additional algorithms are built into the system that also act as additional refinements to the Netflix user's overall experience. Each and every algorithm in place leads to the overarching goal, establishing interest and value for the viewer within their 60 to 90 second attention span.
+
+
+## System Improvements:
+
+## 
